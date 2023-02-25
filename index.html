@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lab1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<center><h1><span class="headstyle">Todo List</span></h1></center>
+<div class="main">
+    <input class= "input" type="text" placeholder="What to do...Press Enter to add">
+    <br>
+    <div>
+        <span class="i">There is <span class="active-item"></span> tasks not done yet</span>
+        <div class="filter-btn-g">
+            Filter:
+            <button class="filter-btn filter-all" data-completed="all">All</button>
+            <button class="filter-btn filter-active" data-completed="0">Active</button>
+            <button class="filter-btn filter-completed" data-completed="1">Completed</button>
+        </div>
+    <button class="btn-clear">Clear All</button>
+    </div>
+        <ul class="todo-list"></ul>
+</div>
+</body>
+    <script src="js/function.js" charset="utf-8"></script>
+</html>
